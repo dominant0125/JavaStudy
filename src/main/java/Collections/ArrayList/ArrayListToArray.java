@@ -3,7 +3,7 @@ package Collections.ArrayList;
 import java.util.ArrayList;
 import java.util.List;
 
-class ArrayListToArray{
+public class ArrayListToArray{
 
     public void run(){
         List<String> list = new ArrayList<String>();
@@ -17,7 +17,7 @@ class ArrayListToArray{
         String[] arr = new String[list.size()];
         list.toArray(arr);
         
-        System.out.println(arr);
+        for (String each : arr) System.out.println(each);
     }
 
 }

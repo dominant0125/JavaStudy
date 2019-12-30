@@ -1,6 +1,6 @@
 import Collections.ArrayList.ArrayListBasic;
 import Collections.ArrayList.ArrayToArrayList;
-import Collections.ArrayList.
+import Collections.ArrayList.ArrayListToArray;;
 
 
 public class JavaStudy {
@@ -9,6 +9,7 @@ public class JavaStudy {
         // arrayListBasic.run();
         // ArrayToArrayList arrayToArrayList = new ArrayToArrayList();
         // arrayToArrayList.run();
-        
+        ArrayListToArray arrayListToArray = new ArrayListToArray();
+        arrayListToArray.run();
     }
 }
