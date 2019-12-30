@@ -3,7 +3,7 @@ package Collections;
 import javax.management.openmbean.ArrayType;
 import java.util.ArrayList;
 
-public class MyArrayList {
+public class MyArrayList1 {
 
     public void run() {
         ArrayList<String> list = new ArrayList();
@@ -28,17 +28,23 @@ public class MyArrayList {
         add_element_by_index(list, 4, "Fifth");
         // 이미 존재하는 index에 add()시 해당 index에 데이터를 삽입하고, 이후 데이터들은 shift한다.
 
+        list.add("Sixth");
         listPrint(list);
+
+        list.remove("Sixth");
+        // 한번에 출력도 가능.
+        System.out.println(list);
+
     }
 
     private void add_element(ArrayList<String> list, String element){
-        // ArrayList.add(element) 메서드로 요소를 append 시킨다.
+        // ArrayList.add(element) 메서드로 요소를 추가한다.
         list.add(element);
         System.out.println(String.format("Add element \"%s\" to list", element));
     }
 
     private void add_element_by_index(ArrayList<String> list, int index, String element){
-        // ArrayList.add(index, element) 메서드로 요소를 append 시킨다.
+        // ArrayList.add(index, element) 메서드로 요소를 추가한다.
         list.add(index, element);
         System.out.println(String.format("Add element \"%s\" to list at index \"%d\"", element, index));
     }

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f482d1f-965e-4501-8a1b-762eeecc09d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Collections/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collections/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Collections/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Collections/MyArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Collections/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collections/MyArrayList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Collections/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaStudy.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577688422844</updated>
-      <workItem from="1577688426491" duration="5493000" />
+      <workItem from="1577688426491" duration="7119000" />
     </task>
     <servers />
   </component>

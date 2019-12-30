@@ -1,9 +1,9 @@
-import Collections.MyArrayList;
+import Collections.MyArrayList1;
 
 
 public class JavaStudy {
     public static void main(String[] args) {
-        MyArrayList myArrayList = new MyArrayList();
-        myArrayList.run();
+        MyArrayList1 myArrayList1 = new MyArrayList1();
+        myArrayList1.run();
     }
 }
