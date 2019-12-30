@@ -1,9 +1,8 @@
-package Collections;
+package Collections.ArrayList;
 
-import javax.management.openmbean.ArrayType;
 import java.util.ArrayList;
 
-public class MyArrayList1 {
+public class ArrayListBasic {
 
     public void run() {
         ArrayList<String> list = new ArrayList();
@@ -30,11 +29,11 @@ public class MyArrayList1 {
 
         list.add("Sixth");
         listPrint(list);
-
+        
         list.remove("Sixth");
         // 한번에 출력도 가능.
         System.out.println(list);
-
+        
     }
 
     private void add_element(ArrayList<String> list, String element){
