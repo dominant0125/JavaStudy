@@ -11,14 +11,22 @@ public class ArrayToArrayList {
     public void run(){
         
         String[] arr = new String[] {"one", "two", "three", "four"};
-        TypeProvider tp = new TypeProvider();
+        //TypeProvider tp = new TypeProvider();
         /* Array -> ArrayList 변환 */
         
         // String 등 기타 class의 instance를 저장한 배열의 경우 아래와 같이 변환.
         // 1-1. Arrays.asList(Array array) 사용
         List<String> list = new ArrayList<String>(Arrays.asList(arr));
+        // ListIterator
+        ListIterator<String> iter = list.listIterator();
+        while (iter.hasNext()){
+            System.out.println(iter.next());
+        }
+        while (iter.hasPrevious()){
+            System.out.println(iter.previous());
+        }
         System.out.println("Used Arrays.asList()\n" + list);
-
+        
         // 1-2. Collections.addAll() 사용
         List<String> list2 = new ArrayList<String>();
         Collections.addAll(list2, arr);
@@ -36,14 +44,6 @@ public class ArrayToArrayList {
         for (int each : nums) list4.add(each);
         System.out.println("\nCase of Primitive type array\n"+list4);
 
-
-        // ListIterator<String> iter = list.listIterator();
-        // while (iter.hasNext()){
-        //     System.out.println(iter.next());
-        // }
-        // while (iter.hasPrevious()){
-        //     System.out.println(iter.previous());
-        // }
     }
 
 }

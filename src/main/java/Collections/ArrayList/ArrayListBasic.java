@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ArrayListBasic {
 
     public void run() {
-        ArrayList<String> list = new ArrayList();
+        ArrayList<String> list = new ArrayList<String>();
 
         add_element(list, "First");
         add_element(list, "Second");
@@ -48,7 +48,7 @@ public class ArrayListBasic {
         System.out.println(String.format("Add element \"%s\" to list at index \"%d\"", element, index));
     }
 
-    private void listPrint(ArrayList list){
+    private void listPrint(ArrayList<String> list){
         // ArrayList.size() 로 길이를 가져온다. *** NOT .length() ***
         System.out.println(String.format("Size of list is \"%d\"", list.size()));
         for(int i=0 ; i < list.size() ; i++){
